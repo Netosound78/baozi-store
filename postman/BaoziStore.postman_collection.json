@@ -144,7 +144,7 @@
             },
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"nome\": \"Baozi de Porco Tradicional\",\n  \"preco\": 8.5,\n  \"estoque\": true\n}",
+              "raw": "{\n  \"nome\": \"Baozi Vegetariano\",\n  \"preco\": 7.5,\n  \"estoque\": true\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -208,7 +208,7 @@
             },
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"nome\": \"Baozi de Porco Tradicional\",\n  \"preco\": 9.0,\n  \"estoque\": true\n}",
+              "raw": "{\n  \"nome\": \"Baozi Vegetariano\",\n  \"preco\": 9.0,\n  \"estoque\": true\n}",
               "options": {
                 "raw": {
                   "language": "json"

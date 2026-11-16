@@ -96,7 +96,7 @@ POST /clientes
 { "nome": "Antonio5185553", "clienteDesde": "2026-11-16" }
 
 POST /produtos
-{ "nome": "Baozi de Porco Tradicional", "preco": 8.50, "estoque": true }
+{ "nome": "Baozi Vegetariano", "preco": 7.50, "estoque": true }
 
 POST /pedidos
 { "clienteId": 1, "produtoId": 1, "quantidade": 6 }
