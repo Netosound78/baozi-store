@@ -65,10 +65,14 @@ Códigos de resposta: `201 Created` (POST), `200 OK` (GET/PUT), `204 No Content`
 
 ## Como executar
 
-Pré-requisitos: JDK 17+ e Maven (ou abra o projeto no IntelliJ/Eclipse/VS Code).
+Pré-requisito: JDK 17+ (o Maven não precisa ser instalado, o projeto usa o Maven Wrapper).
 
 ```bash
-mvn spring-boot:run
+# Linux / macOS
+./mvnw spring-boot:run
+
+# Windows (Prompt de Comando ou PowerShell)
+mvnw.cmd spring-boot:run
 ```
 
 A API sobe em `http://localhost:8080`. O console do H2 fica em `http://localhost:8080/h2-console`
@@ -79,7 +83,7 @@ A API sobe em `http://localhost:8080`. O console do H2 fica em `http://localhost
 Ajuste usuário/senha em `src/main/resources/application-mysql.properties` e execute:
 
 ```bash
-mvn spring-boot:run -Dspring-boot.run.profiles=mysql
+./mvnw spring-boot:run -Dspring-boot.run.profiles=mysql
 ```
 
 O banco `baozi_store` é criado automaticamente.
